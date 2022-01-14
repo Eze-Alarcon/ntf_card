@@ -1,0 +1,126 @@
+body {
+    background-color: #000;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    background-color:  hsl(217, 54%, 11%);
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: hsl(216, 50%, 16%);
+    height: 90%;
+    width: 85%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section .image--container {
+    height: 50%;
+    width: 85%;
+    margin: 20px 20px 0 20px;
+}
+
+.image--container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+section .main--info {
+    height: 50%;
+    padding: 0 20px 20px 20px;
+}
+
+.main--info .info--title {
+    color: hsl(0, 0%, 100%); 
+    font-size: 1.1rem; 
+    font-weight: 600;
+    font-style: bold;
+    margin: 20px 0 10px 0;
+}
+
+.main--info .info--details {
+    color: hsl(215, 51%, 70%);
+    font-size: .8rem;
+    font-weight: 300; 
+    line-height: 1.4rem;
+}
+
+section .info--data {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data--value {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: .8rem; 
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.data--days {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    font-weight: 600;
+    color: hsl(215, 51%, 70%);
+}
+
+.data--value span {
+    height: 1.2rem;
+    width: 1.1rem;
+    background-image: url("../images/icon-ethereum.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.data--days span {
+    margin-right: .3rem;
+    height: 1.2rem;
+    width: 1.1rem;
+    background-image: url("../images/icon-clock.svg");
+    background-repeat: no-repeat;
+}
+
+.info--creator {
+    border-top: .1px solid hsl(215, 51%, 70%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3.5rem;
+}
+
+.info--creator img {
+    height: 1.8rem;
+    width: 1.8rem;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.info--creator p {
+    color: hsl(0, 0%, 100%);
+    margin-left: .8rem;
+    font-size: .8rem;
+    font-weight: 400;
+}
