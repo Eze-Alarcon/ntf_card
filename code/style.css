@@ -15,6 +15,7 @@ body {
 main {
     height: 60%;
     max-height: 600px;
+    min-height: 520px;
     width: 100%;
     max-width: 320px;
     display: flex;
